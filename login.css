@@ -1,0 +1,63 @@
+
+body{
+	background-image: url(gambar/cover3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#login{
+	color: #fff;
+	padding:3%;
+	width: 30%;
+	margin-top: 10%;
+	box-shadow: 0 3px 20px rgba(0,0,0,1);
+	background-color: rgba(0,0,0,0.5);
+	margin-bottom: 15%;
+}
+
+h5{
+	letter-spacing: 3px;
+	margin-bottom: 2%;
+}
+
+button{
+	width: 100%;
+	margin-bottom:2%;
+}
+hr{
+	width: 250px;
+	border-top: 3px solid #ffa500;
+}
+
+.container{
+	padding: 3%;
+}
+#footer{
+	background-color: rgba(0,0,0,0.5);
+}
+@media(max-width: 720px){
+	#login{
+		color: #fff;
+		padding:5%;
+		width: 50%;
+		margin-top: 25%;
+		margin-bottom: 50%;
+		box-shadow: 0 3px 20px rgba(0,0,0,1);
+		background-color: rgba(0,0,0,0.5);
+	}
+	.email{
+		height: 30px;
+	}
+	.passwrd{
+		height: 30px;
+	}
+	.submit{
+		height: 30px;
+	}
+	.reg{
+		height: 30px;
+	}
+	input:hover{
+		font-size: 13px;
+	}
+}
