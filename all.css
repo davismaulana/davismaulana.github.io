@@ -1,0 +1,45 @@
+#all-content{
+	max-height: 400px;
+	max-width: 400px;
+	border-radius: 10px;
+	box-shadow: 0 3px 20px rgba(0,0,0,1);
+}
+
+.container{
+	padding-top: 5%;
+}
+/*responsive*/
+@media(max-width: 720px){
+	#all-content{
+		max-height: 200px;
+		max-width: 200px;
+	}
+	.row{
+		max-width: 100%;
+	}
+}
+
+/*overlay*/
+.overlay{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0);
+	z-index: 9999;
+	
+}
+
+/*target*/
+.overlay:target{
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+	box-shadow: 0 3px 20px rgba(0,0,0,1);
+	transition: 1s;
+}

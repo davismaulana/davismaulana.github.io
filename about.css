@@ -13,7 +13,7 @@ hr{
 }
 
 section{
-	min-height: 600px;
+	;
 }
 .galery{
 	background-color: #eee;
@@ -23,4 +23,29 @@ section{
 }
 h6{
 	color: #fff;
+}
+
+li{
+	display: inline-flex;
+}
+/*overlay*/
+
+
+
+/*hover*/
+
+
+/*responsive css*/
+@media(max-width: 720px){
+	h2{
+		font-size: 30px;
+		margin-top: 10px;
+	}
+	h4{
+		font-size: 25px;
+	}
+	li{
+		display: inline-flex;
+		font-size: 15px;
+	}
 }

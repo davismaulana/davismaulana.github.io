@@ -2,11 +2,18 @@ hr{
 	width: 250px;
 	border-top: 3px solid #ffa500;
 }
+.container{
+	
+}
+.navbar{
+	position: sticky;
+	top:0;
+}
 .other-pictures{
 	color: #d3d3d3;
 	text-decoration: none;
 }
-#other-pictures{
+.other-pictures{
 	text-decoration: none;
 	float: left;
 	overflow: hidden;
@@ -19,6 +26,14 @@ li{
 	border-top: 5px solid#ffa500;
 	margin-top: 40px;
 }
+.description{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.overlay-img{
+	padding: 50px;
+}
 /*overlay*/
 .overlay{
 	width: 0;
@@ -29,19 +44,22 @@ li{
 	left: 0;
 	background-color: rgba(0,0,0,0);
 	z-index: 9999;
-	transition: 1s;
+	
 }
 
 /*target*/
 .overlay:target{
 	width: 100%;
 	height: 100%;
+	text-align: center;
 	bottom: 0;
 	right: 0;
 	background-color: rgba(0,0,0,0.8);
 	text-align: center;
 	box-shadow: 0 3px 20px rgba(0,0,0,1);
+	transition: 1s;
 }
+
 
 /*hover*/
 .picture a img:hover{
