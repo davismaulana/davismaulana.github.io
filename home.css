@@ -3,11 +3,14 @@ hr{
 	border-top: 3px solid #ffa500;
 }
 .container{
-	
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
 }
 .navbar{
 	position: sticky;
 	top:0;
+	z-index: 99;
 }
 .other-pictures{
 	color: #d3d3d3;
@@ -58,6 +61,7 @@ li{
 	text-align: center;
 	box-shadow: 0 3px 20px rgba(0,0,0,1);
 	transition: 1s;
+	overflow: auto;
 }
 
 
@@ -79,4 +83,5 @@ li{
 		display: inline-flex;
 		font-size: 15px;
 	}
+
 }

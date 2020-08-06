@@ -1,6 +1,6 @@
 
 body{
-	background-image: url(gambar/cover3.jpg);
+	background-image: url(gambar/galery7.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -10,7 +10,7 @@ body{
 	padding:3%;
 	width: 30%;
 	margin-top: 10%;
-	box-shadow: 0 3px 20px rgba(0,0,0,1);
+	box-shadow: 0 3px 20px #00ffff;
 	background-color: rgba(0,0,0,0.5);
 	margin-bottom: 15%;
 }
@@ -19,7 +19,16 @@ h5{
 	letter-spacing: 3px;
 	margin-bottom: 2%;
 }
-
+.email{
+	background:none;
+	box-shadow: 0 0 20px #ffa500;
+	color: #fff;
+}
+.passwrd{
+	background:none;
+	box-shadow: 0 0 20px #ffa500;
+	color: #fff;
+}
 button{
 	width: 100%;
 	margin-bottom:2%;
@@ -35,7 +44,25 @@ hr{
 #footer{
 	background-color: rgba(0,0,0,0.5);
 }
+/*hover*/
+.email:hover{
+	box-shadow: 0 0 20px #00ffff;
+	transition: 2s;
+	color: #000;
+}
+.passwrd:hover{
+	box-shadow: 0 0 20px #00ffff;
+	transition: 2s;
+	color: #000;
+}
 @media(max-width: 720px){
+	body{
+	background-image: url(gambar/cover1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	}
+
 	#login{
 		color: #fff;
 		padding:5%;
@@ -45,19 +72,51 @@ hr{
 		box-shadow: 0 3px 20px rgba(0,0,0,1);
 		background-color: rgba(0,0,0,0.5);
 	}
+	#title-login{
+		font-size: 20px;
+	}
 	.email{
-		height: 30px;
+		height: 25px;
+		font-size: 12px;
 	}
 	.passwrd{
-		height: 30px;
+		height: 25px;
+		font-size: 12px;
 	}
 	.submit{
-		height: 30px;
+		height: 25px;
+		font-size: 11px;
+		padding-top: 4px;
 	}
 	.reg{
-		height: 30px;
+		height: 25px;
+		font-size: 11px;
+		padding-top: 4px;
 	}
+	.reset{
+		height: 25px;
+		font-size: 11px;
+		padding-top: 4px;
+	}
+	.fa{
+		height: 13px;
+	}
+	.label{
+		font-size: 14px;
+	}
+	/*hover*/
 	input:hover{
-		font-size: 13px;
+		font-size: 10px;
+	}
+	}
+	.email:hover{
+		box-shadow: 0 0 20px #00ffff;
+		transition: 2s;
+		color: #000;
+	}
+	.passwrd:hover{
+		box-shadow: 0 0 20px #00ffff;
+		transition: 2s;
+		color: #000;
 	}
 }
