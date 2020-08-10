@@ -5,20 +5,31 @@ body{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-#login{
-	color: #fff;
-	padding:3%;
-	width: 30%;
-	margin-top: 10%;
-	box-shadow: 0 3px 20px #00ffff;
-	background-color: rgba(0,0,0,0.5);
-	margin-bottom: 15%;
-	border-radius: 10px;
+nav{
+	background:transparent;
 }
 .navbar-brand{
 	color: #fff;
 	font-size: 30px;
 	text-shadow: 0 0 20px #00ffff;
+}
+#login-button{
+	font-size: 20px;
+	box-shadow: 0 0 20px #00ffff;
+}
+.login{
+	margin:5%;
+}
+
+#register{
+	color: #fff;
+	padding:5% 9%;
+	width: 70%;
+	margin-top: 10%;
+	box-shadow: 0 3px 20px #00ffff;
+	background-color: rgba(0,0,0,0.5);
+	margin-bottom: 15%;
+	border-radius: 10px;
 }
 h5{
 	letter-spacing: 3px;
@@ -26,11 +37,17 @@ h5{
 }
 .email{
 	background:none;
-	transition: 2s;
 	box-shadow: 0 0 20px #ffa500;
+	transition: 2s;
 	color: #fff;
 }
 .passwrd{
+	background:none;
+	box-shadow: 0 0 20px #ffa500;
+	transition: 2s;
+	color: #fff;
+}
+.username{
 	background:none;
 	transition: 2s;
 	box-shadow: 0 0 20px #ffa500;
@@ -74,6 +91,11 @@ a .fa{
 	transition: 2s;
 	color: #000;
 }
+.username:hover{
+	box-shadow: 0 0 20px #00ffff;
+	transition: 2s;
+	color: #000;
+}
 .box div:hover{
 	position: absolute;
 	width: 60px;
@@ -82,9 +104,8 @@ a .fa{
 	border:6px solid #ffa500;
 	transition: 2s;
 }
-
 /*end hover*/
-/*animation roll*/
+/*animation box*/
 .box div{
 	position: absolute;
 	width: 60px;
@@ -152,7 +173,7 @@ a .fa{
 		opacity: 0;
 	}
 }
-/*end animation*/
+/*end animation box*/
 @media(max-width: 720px){
 	body{
 	background-image: url(gambar/cover1.jpg);

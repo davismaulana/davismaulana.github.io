@@ -1,0 +1,97 @@
+body {
+  background-image: url(gambar/contoh16.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.jumbotron{
+  background-image: url(gambar/contoh15.png);
+  background-size: cover;
+  border-bottom: 10px solid#00ffff; 
+}
+#description{
+  color: #fff;
+  letter-spacing: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+#hr-header{
+  border-top: 2px solid#fff;
+}
+#button{
+  margin-top: 3%;
+}
+#logo{
+  width: 55em;
+  margin-left: 12%;
+}
+hr{
+  border-top: 3px solid #00ffff;
+}
+#about{
+  margin: 20% 0;
+  color: #fff;
+  padding: 
+}
+
+#footer{
+  background-color: rgba(0,0,0,0.5);
+  border-top: 10px solid#00ffff;
+  padding-bottom: 10px;
+}
+h1{
+  text-shadow: 0 0 20px solid#000;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+p{
+  text-shadow: 0 0 20px solid#000;
+  font-size: 20px;
+}
+a .fa{
+  font-size: 24px; 
+  margin-bottom: 5px; 
+  margin-top: 10px;"
+}
+.envelope .fa{
+  font-size: 24px; 
+  margin-bottom: 5px; 
+  margin-top: 10px;"
+}
+.form-control{
+  background:none;
+}
+/*responsive*/
+@media(max-width: 720px){
+  body{
+  background-image: url(gambar/cover1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  }
+
+  a .fa{
+    font-size: 20px; 
+    margin-bottom: 5px; 
+    margin-top: 10px;"
+  }
+  .envelope .fa{
+    font-size: 20px; 
+    margin-bottom: 5px; 
+    margin-top: 10px;"
+  }
+  .label{
+    font-size: 14px;
+  }
+  footer h2{
+    font-size: 25px;
+  }
+  hr{
+    width: 190px;
+    border-top: 3px solid #ffa500;
+  }
+  #footer{
+    background-color: rgba(0,0,0,0.5);
+    border-top: -10px solid#ffa500;
+  }
+}

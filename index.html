@@ -6,68 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="login.css">
-    <script src="https://use.fontawesome.com/4ca2b49093.js"></script>
-    <!-- animation -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
-    <title>Login Now</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>ARTOnline Website</title>
   </head>
   <body>
-    <div class="container" id="login">
-      <div class="row">
-        <div class="col-sm-12 text-center" style="margin-bottom: 5%;letter-spacing: 10px;text-shadow: 0 0px 20px #ffa500;">
-          <h3 id="title-login">LOGIN</h3>
+    <!-- jumbotron -->
+    <header>
+      <div class="jumbotron">
+        <div class="container" id="container-judul">
+          <img id="logo" src="gambar/logo1.png">
+          <p id="description">WEBSITE IMAGES</p>
+          <hr id="hr-header">
         </div>
+        <div class="container" id="button">
+          <div class="row">
+          <div class="col col-sm-4 offset-sm-2">
+            <a href="login.html">
+              <button type="button" class="btn btn-outline-primary" style="width: 100%">MEMBER</button>
+            </a>
+          </div>
+          <div class="col col-sm-4 ">
+            <a href="">
+              <button type="button" class="btn btn-outline-primary" style="width: 100%">ADMIN</button>
+            </a>
+          </div>
+          </div>  
       </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="form-group">
+    </header>
+    <!-- akhir jumbotron -->
 
-            <h6 class="label">Email</h6>
+     <!-- about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="text-center">ABOUT</h1>
+            <hr>
+          </div>
+        </div>
 
-            <div class="input-group" style="margin-bottom: 5%;">
-              <div class="input-group-prepend">
-                <div class="input-group-text">
-                  <i class="fa fa-user" aria-hidden="true"></i>
-                </div>
-              </div>
-              <input type="text" name="" class=" email form-control" placeholder="Input Your Email" >
-            </div>
-
-            <h6 class="label">Password</h6>
-
-            <div class="input-group" style="margin-bottom: 10%;">
-              <div class="input-group-prepend">
-                <div class="input-group-text">
-                  <i class="fa fa-lock"></i>
-                </div>
-              </div>
-              <input type="password" name="" class="passwrd form-control" placeholder="Input Your Password" >
-            </div>
-
+        <div class="row">
+          <div class="col-sm-5 offset-sm-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-sm-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
       </div>
-      <!-- register -->
-      <div class="row">
-        <div class="col-sm-12">
-          <button type="submit" class="submit btn btn-outline-primary">SUBMIT</button>
+    </section>
+    <!-- akhir about -->
 
-          <button type="reset" name="reset" class="reset btn btn-outline-danger">RESET</button>
-          <a href="">
-            <button type="register" class="reg btn btn-outline-success">REGISTER</button> 
-          </a>
-        </div>
-      </div>
-    </div>
     <!-- footer -->
-    <footer class="page-footer " id="footer" style="border-top: 10px solid#ffa500">
+    <footer class="page-footer " id="footer" >
       <div class="container text-center text-sm-left " >
         <!-- judul footer -->
-        <div class="row">
-          <div class="col-sm-12 text-center" style="margin-bottom: 30px;">
-            <h2 class="text-white">CONTACT</h2>
+        <div class="row" >
+          <div class="col-sm-12 text-center" style="margin-bottom: 30px;margin-top: 20px;">
+            <h1 class="text-white" style="letter-spacing: 10px;">CONTACT</h1>
             <hr>
           </div>
         </div>
@@ -78,21 +85,21 @@
             
             <div class="col-lg-6">
               <h4>Social Media</h4>       
-              <hr style="width: 200px;"> 
+              <hr class="mr-1"> 
             </div>
 
             <ul class="list-unstyled">
               <li>
-                <a href=""><i class="fa fa-facebook-square text-white mr-4 text-white" aria-hidden="true" style="font-size: 25px; margin-bottom: 10px; margin-top: 10px;">  Davis Maulana</i></a>
+                <a href=""><i class="fa fa-facebook-square text-white mr-4 text-white" aria-hidden="true"> Davis Maulana</i></a>
               </li>
               <li>
-                <a href=""><i class="fa fa-instagram text-white mr-4 text-white" aria-hidden="true" style="font-size: 25px; margin-bottom: 10px;" >  davshdw_29</i></a>
+                <a href=""><i class="fa fa-instagram text-white mr-4 text-white" aria-hidden="true" >  davshdw_29</i></a>
               </li>
               <li>
-                <a href=""><i class="fa fa-whatsapp text-white mr-4 text-white" aria-hidden="true" style="font-size: 25px; margin-bottom: 10px;" > +62 812-2626-4395</i></a>
+                <a href=""><i class="fa fa-whatsapp text-white mr-4 text-white" aria-hidden="true" > +62 812-2626-4395</i></a>
               </li>
               <li>
-                <i class="fa fa-envelope" aria-hidden="true" style="font-size: 25px; margin-bottom: 10px;" > davismaulana05@gmail.com</i>
+                <div class="envelope"><i class="fa fa-envelope" aria-hidden="true" > davismaulana05@gmail.com</i></div>
               </li>
             </ul>
             
@@ -104,7 +111,7 @@
             <!-- form -->
             <div class="col-lg-6">
               <h4>Form</h4>       
-              <hr style="width: 200px;"> 
+              <hr class="mr-1"> 
             </div>
 
             <div class="form-group">
@@ -125,31 +132,16 @@
           <small class="text-muted">Copyright 2020</small>
         </h4>
         <!-- akhir isi footer -->
+        
       </div>
     </footer>
     <!-- akhir footer -->
-
-    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous"></script>
-    <script>
-      var waypoint = new Waypoint({
-        element: document.getElementById('px-offset-waypoint'),
-        handler: function(direction) {
-          notify('I am 20px from the top of the window')
-        },
-        offset: 20 
-      });
-      $(document).ready(function(){
-        $('about--part1').waypoints(function(direction))
-      });
-
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- icon -->
+    <script src="https://use.fontawesome.com/4ca2b49093.js"></script>
   </body>
 </html>
